@@ -282,14 +282,14 @@ if(actualTime > 51200 && actualTime < 53900){
 }
 
 // booms w rect
-if(actualTime > 65200 && actualTime < 66900){
-  noStroke();
-  fill(243,178,29,p);
-  wid =  wid + 2
-  hei = hei + 2
-  rect(random(width), random(height), wid, hei);
-  r = map(actualTime, 65200, 66900, 0, 500);
-}
+// if(actualTime > 65200 && actualTime < 66900){
+//   noStroke();
+//   fill(243,178,29,p);
+//   wid =  wid + 2
+//   hei = hei + 2
+//   rect(random(width), random(height), wid, hei);
+//   r = map(actualTime, 65200, 66900, 0, 500);
+// }
 }
   // if (x > width + crad) {
   //   dir = dir * -1;
