@@ -287,7 +287,7 @@ if(actualTime > 65200 && actualTime < 66900){
   fill(243,178,29,p);
   wid =  wid + 2
   hei = hei + 2
-  rect(random(width), random(height), wid, hei));
+  rect(random(width), random(height), wid, hei);
   r = map(actualTime, 65200, 66900, 0, 500);
 }
 }
